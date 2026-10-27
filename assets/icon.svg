@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <!-- Folder Back Gradient -->
+    <linearGradient id="folderBackGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#93C5FD" />
+      <stop offset="100%" stop-color="#60A5FA" />
+    </linearGradient>
+
+    <!-- Folder Front Gradient -->
+    <linearGradient id="folderFrontGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+
+    <!-- Lightning / Quick Flash Gradient -->
+    <linearGradient id="boltGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+
+    <!-- File Sheet Gradient -->
+    <linearGradient id="sheetGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadowFilter" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.38" />
+    </filter>
+    <filter id="boltGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#F59E0B" flood-opacity="0.5" />
+    </filter>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000000" flood-opacity="0.22" />
+    </filter>
+  </defs>
+
+  <!-- App Icon Squircle Background -->
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#bgGrad)" filter="url(#shadowFilter)" />
+
+  <!-- Subtle Inner Border Glow -->
+  <rect x="25" y="25" width="462" height="462" rx="107" fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="3" />
+
+  <!-- Decorative Subtle Tech Grid / Circuit Accent -->
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round">
+    <line x1="80" y1="120" x2="432" y2="120" />
+    <line x1="80" y1="392" x2="432" y2="392" />
+    <line x1="120" y1="80" x2="120" y2="432" />
+    <line x1="392" y1="80" x2="392" y2="432" />
+    <circle cx="120" cy="120" r="6" fill="#FFFFFF" />
+    <circle cx="392" cy="120" r="6" fill="#FFFFFF" />
+    <circle cx="120" cy="392" r="6" fill="#FFFFFF" />
+    <circle cx="392" cy="392" r="6" fill="#FFFFFF" />
+  </g>
+
+  <!-- Main Folder Structure -->
+  <!-- Folder Back Tab -->
+  <path d="M112 184 C112 170.7 122.7 160 136 160 L212 160 C223.3 160 233.8 165.4 240.5 174.5 L257.5 197.5 C264.2 206.6 274.7 212 286 212 L376 212 C389.3 212 400 222.7 400 236 L400 348 C400 361.3 389.3 372 376 372 L136 372 C122.7 372 112 361.3 112 348 Z"
+        fill="url(#folderBackGrad)"
+        filter="url(#softShadow)" />
+
+  <!-- Sheet of Document peaking out -->
+  <rect x="156" y="196" width="200" height="150" rx="14" fill="url(#sheetGrad)" filter="url(#softShadow)" />
+  <line x1="184" y1="230" x2="328" y2="230" stroke="#94A3B8" stroke-width="7" stroke-linecap="round" />
+  <line x1="184" y1="254" x2="288" y2="254" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round" />
+  <line x1="184" y1="278" x2="310" y2="278" stroke="#CBD5E1" stroke-width="7" stroke-linecap="round" />
+
+  <!-- Folder Front Pocket -->
+  <path d="M104 246 C104 233.8 113.8 224 126 224 L386 224 C398.2 224 408 233.8 408 246 L408 356 C408 369.3 397.3 380 384 380 L128 380 C114.7 380 104 369.3 104 356 Z"
+        fill="url(#folderFrontGrad)"
+        filter="url(#softShadow)" />
+
+  <!-- Glowing Lightning / Rocket Speed Badge -->
+  <g filter="url(#boltGlow)">
+    <circle cx="256" cy="316" r="54" fill="#0F172A" fill-opacity="0.28" />
+    <!-- Speed Bolt -->
+    <path d="M266 264 L224 322 L254 322 L242 368 L288 308 L258 308 Z"
+          fill="url(#boltGrad)"
+          stroke="#FFFBEB"
+          stroke-width="2.5"
+          stroke-linejoin="round" />
+  </g>
+
+  <!-- Pin / Root Tag Badge at top right -->
+  <g filter="url(#softShadow)">
+    <circle cx="364" cy="156" r="32" fill="#FFFFFF" />
+    <!-- Pin icon inside circle -->
+    <path d="M372 142 L378 148 L370 156 L373 166 L365 170 L356 161 L347 170 L342 165 L351 156 L342 147 L346 139 L356 142 Z"
+          fill="#0284C7" />
+    <path d="M344 174 L336 182" stroke="#0284C7" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>

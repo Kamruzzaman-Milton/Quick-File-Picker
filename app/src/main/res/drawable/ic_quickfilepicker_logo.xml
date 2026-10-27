@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- MIUI style squircle background -->
+    <path
+        android:fillColor="#0D84FF"
+        android:pathData="M24,38 C24,28 28,24 38,24 L70,24 C80,24 84,28 84,38 L84,70 C84,80 80,84 70,84 L38,84 C28,84 24,80 24,70 Z" />
+    <!-- Clean Folder Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,36 L48,36 L53,41 L70,41 C72.2,41 74,42.8 74,45 L74,68 C74,70.2 72.2,72 70,72 L38,72 C35.8,72 34,70.2 34,68 L34,40 C34,37.8 35.8,36 38,36 Z" />
+    <!-- Vibrant Lightning / Fast Bolt -->
+    <path
+        android:fillColor="#0D84FF"
+        android:pathData="M55,47 L45,58 L52,58 L50,67 L61,55 L54,55 Z" />
+</vector>

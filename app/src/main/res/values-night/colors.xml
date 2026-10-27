@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MIUI / HyperOS Dark Color Palette -->
+    <color name="primary">#3B99FF</color>
+    <color name="on_primary">#002C63</color>
+    <color name="primary_container">#0E3870</color>
+    <color name="on_primary_container">#D8E8FF</color>
+    <color name="secondary">#9DA3B2</color>
+    <color name="on_secondary">#171921</color>
+    <color name="secondary_container">#272A34</color>
+    <color name="on_secondary_container">#E0E4EE</color>
+    <color name="background">#111215</color>
+    <color name="on_background">#F1F3F6</color>
+    <color name="surface">#1C1E24</color>
+    <color name="on_surface">#F1F3F6</color>
+    <color name="surface_variant">#262832</color>
+    <color name="on_surface_variant">#9296A3</color>
+    <color name="outline">#383B47</color>
+    <color name="outline_variant">#272933</color>
+    <color name="error">#FF6B6B</color>
+    <color name="on_error">#4E0005</color>
+    <color name="error_container">#3E1316</color>
+    <color name="on_error_container">#FFD6D6</color>
+
+    <!-- MIUI dark accent colors -->
+    <color name="miui_accent_orange">#FF8024</color>
+    <color name="miui_accent_green">#26C28B</color>
+    <color name="miui_pill_bg">#182638</color>
+    <color name="miui_pill_text">#6DB3FF</color>
+    <color name="miui_card_stroke">#282A34</color>
+</resources>

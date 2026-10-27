@@ -1,0 +1,6 @@
+{
+  "name": "Quick File Picker",
+  "description": "Virtual folder shortcuts inside Android system file picker",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
